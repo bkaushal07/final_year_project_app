@@ -1,0 +1,40 @@
+body{
+    background: hsl(34, 100%, 50%);
+    font-family: Montserrat;
+}
+.container{
+    margin-bottom: 25px;
+}
+.jumbotron{
+    background: hsl(29, 98%, 49%);
+}
+h1{
+    font-size: 100px;
+}
+
+h2{
+    font-size: 60px;
+}
+.button {
+  background-color: #ff7700;
+  border: none;
+  padding: 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.button:hover{
+    background: #ff6600;
+}
+button:focus {
+    outline:0;
+}
+.button:active {
+  background-color: #ff6600;
+  box-shadow: 0 5px #ff8700;
+  transform: translateY(3px);
+}
+

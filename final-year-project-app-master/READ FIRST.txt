@@ -1,0 +1,26 @@
+This repository has the full code for the project.
+I have also added a few Audio Samples for you to upload and test.
+
+customised CNN with code in DOCUMENTS under the foldername 'final year project cnn'
+
+To start -
+open anaconda prompt
+for conda environment lists : conda env list
+
+1. conda activate tf_cpu
+2. cd D or type d:
+   cd final-year-project-app-master
+2. python emo-rec.py (after navigating to the directory to where you have pulled)
+   wait for the tf to load for a while!!
+3. (After server starts) Go to browser and type- localhost:5000 
+
+
+packages:
+
+python = 3.7.3
+numpy = 1.16.3
+tensorflow = 1.14.0
+keras = 2.2.0
+librosa = 0.8.0
+h5py = 2.9.0
+
